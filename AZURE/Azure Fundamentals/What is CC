@@ -6,4 +6,19 @@ Storage
 Networking
 Analytics of compute storage and network inorder to get visual telmetry and performance data.
 
+## Goal
+CC is to make running a business easier and more efficiant 
 
+## Compute Power
+A Virtual Machine is an emulation of computer.
+Containers
+Serverless computing
+
+physical hardware -> Host operating system -> Hybervisor controller -> VM1
+physical hardware -> Host operating system -> container engine -> container1
+physical hardware -> Host operating system -> serverless runtime -> function
+
+## Serverless computing
+The core idea is that your application is broken into separate functions.
+that run went triggered by some action. This ideal for automataed task.
+such as you can build a serverless process that automatically sends an email.\
