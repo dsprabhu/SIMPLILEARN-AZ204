@@ -1,0 +1,14 @@
+#Key concepts
+1)High Availability - Ability to keep the service is up and running for long period of time.
+Make sure very little down time for bussines.
+2)Scalability - ability to increase/decrease resouces for given workload.
+3)Elasticity - ability to automatically or dynamically increase or decrease the resource as needed.
+4)Agility - ability to react quickly.Cloud services can allocate and deallocate resources quickly.
+5)Fault tolerance - one component is failed backup component takes its place.
+6)Disaster Recovery - Ability to recover from an event which is taken down a cloud service climate services disaster revoery can recovery very quickly,
+with automation and services being readily available to you global reach.
+7)Global reach -
+8)Customer Latency capabilities - 
+9) Technical skill requirements -
+10) increased productivity -
+11) Security
