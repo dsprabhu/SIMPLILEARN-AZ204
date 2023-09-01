@@ -1,0 +1,49 @@
+## Types of cloud services
+IaaS - Infrastructure as a service - system administrator
+PaaS - Platform as a service - Developers
+SaaS - Software as a service - End users
+
+## IaaS - Infrastructure as a service
+Underline hardware:Lots of Harware Provided by IAAS Provider. No need to worry about hardware. only administration
+cloud customers can user Rack,switches, routers and firwalls and that can be provisioned in a matter off minutes. Work load is tempory.
+
+Common usage scenarios: IAAS
+Migrating workloads
+Test and Dev
+Website Hosting
+Backup storage and recovery
+
+
+## Plateform as a service (PAAS)
+Application - Cloud Users Responsibility
+Data - Cloud users responsibility
+
+Runtime - cloud provider Responsibility
+Middleware - Cloud provider Responsiblity
+OS - Cloud Provider Responsibility
+Virtrualization - Cloud Provider Responsibility
+Server - Cloud Provider Responsibility
+
+PaaS as a service will be providing an environment for building an environment for building such applications 
+so that the developer does not have to worry about those concepts.
+
+The goal of PaaS is to help create an application quickly as possible without having the developer to worry about managing the infra.
+
+PaaS is a complete development and deployment environment is the cloud resourcesare pruched from cloud service provider on pay as you go basis and access over secure internet connection.
+
+## Common use cases: PaaS
+serverless architecture
+examples, DBMS, Azure SQL, Amazon relational databases,google cloud spanger,Web Application Hosting,
+Azure webaps,eleastic beanstalk, google app engine,contianer orchestration.kubernets,dockerswarm,BigData warehouse,Azure DataLake,amzon redshift,google's big table, Big quickie.
+
+
+## Software as a service (SaaS)
+Its a method off software delivery that allows data to be access from any device with an internet connection and a web browser.
+In this webbased model software vendors host and maintain the servers. 
+It maintain databases and the code that constitue the application.
+SaaS Provider take care of everthing including the software this time.
+SaaS also differs from on premise software and its pricing model.
+
+example: office365,gmail,facebook,salesforce
+
+No need to install anything on computer, only needs ID,browser
