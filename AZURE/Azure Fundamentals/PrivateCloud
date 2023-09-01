@@ -1,0 +1,17 @@
+## Private Cloud
+Private clouds are owned and opertated by Organization that uses the resources from that cloud.
+
+The Organization or enterprises will create their own cloud environment with their own data center.
+
+
+A good used case for this private cloud scenario would be whnen an organization as data that they really do not want to put in public cloud.
+
+For example medical data that has to be compliant with HIPAA stanadards cannot be exposed publically.
+
+## Private cloud : Characteristics
+Ownership - cloud user is also company, cloud owner is the company,everything lies inside your land
+Harware - Owner is entierly responsible for purchase and management off the could hardware
+users - only on organization and could computing resouces are used exclusively by single organization or single business connect
+connectivity - A connection to a private cloud is typically made over private network. within LAN environment.
+Public access - Cannot be accessable over internet.
+skills - Require deep techincal knowdelge
