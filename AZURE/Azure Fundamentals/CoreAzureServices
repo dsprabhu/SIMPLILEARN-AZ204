@@ -1,0 +1,37 @@
+## Core Azure Services AZ900
+
+Azure Architectural Components
+Azure services and products
+Azure Solutions
+Azure Management Tools
+
+## Azure Regions
+Datacenter - Azure Regions - 54
+Datacenters are organized and made available to end users by region.
+Our region is a geographical area on the planet containing at least one but otentially multiple data centers.
+
+These data centers are in close proximity and network together with low latency network for most azure services.
+
+Few examples
+West Us
+Canda center
+West Europe
+Austraila East
+Japan 
+
+This provides the customers the flexibility and skill needed to bring scale need to bring applications closer to users around the world.
+
+## Azure Special Regions
+
+US DOD (Department of Defence) {US government central, US gorventmet Virginia, US goverment IoWa}
+
+Operated by screend US person that includes compliance certifications.
+
+China { East, North }
+These regions are available through a unique partnership between Microsoft and 21viaNet
+
+Germany {Central, North east}
+These regions are available through a data trustee model whereby a customer data remain in germay uner the control of T systems.
+which is advice telecom company acting as a german data trustee.
+
+
