@@ -35,3 +35,11 @@ These regions are available through a data trustee model whereby a customer data
 which is advice telecom company acting as a german data trustee.
 
 
+## Azure Reginol pairs
+
+Regional pair -> { Region1 , Region2 }
+Asia regional pair -> {east asia , South East esia}
+China is paid with china north2 , china east 2
+Germany is pair with Germany central , Germany Northeast
+
+https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure
