@@ -43,3 +43,28 @@ China is paid with china north2 , china east 2
 Germany is pair with Germany central , Germany Northeast
 
 https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure
+
+## Feature Availability
+
+All Azure service are not available in all region.
+for example certain virtual machine sizes are storage types are available in certain regions and probably not another read.
+on the other side. On the other side there are certain services which are global serverice that do not require you to select a particular region.
+
+
+Golbal services -> {Azure AD, Traffic manager, Azure DNS}
+
+## Availability Zone
+
+Geographies and regions
+
+Availability zones are physically separate location with a region each available.
+The zone is made up off one or more data centers that are a cuban independent power cooling and networking.It was setup to be an isoladted boundary.one availability zone goes down othercontinues to work.
+
+Provide:
+
+Low latency 
+High Availability
+Resiliency
+
+## Availability Sets
+
