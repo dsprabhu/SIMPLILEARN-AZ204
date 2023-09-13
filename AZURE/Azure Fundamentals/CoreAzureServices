@@ -68,3 +68,23 @@ Resiliency
 
 ## Availability Sets
 
+The cloud provider is responsible for the physical infrastructure in there data centers. so availability set is a way for you to ensure that your application remains online.if a high impact maintenance event is required, 
+
+update domain ->   The updated sequenced throgh the update domains in multiple racks, so sequencing these updates using update domains ensures that the entire data center isnot unavailable during platform of dates.
+logical section of data center.
+
+fault domain ->    The physical sepration of datcenter across different hardware which inclulde powersuppies,coolers,network.
+
+## Resource Groups
+The container that allow you aggregate and manage all the resouces that are required by your applications or a single mangable business unit. you must have to create it.
+you can create for HR or business unit or SAP 
+Advantages
+1) metering and billing for particular resouce group
+2) you can apply policies
+3) Monitoring and alerts
+4) Quotas
+5) ACL
+
+It can be created through the azure portal power shell, azure cli, rest api, clint's SDK.
+Azure resource manager is responsible to deploy the resource is azure portal.
+
