@@ -88,3 +88,60 @@ Advantages
 It can be created through the azure portal power shell, azure cli, rest api, clint's SDK.
 Azure resource manager is responsible to deploy the resource is azure portal.
 
+## Core Azure Services and Products
+### Compute service
+ Azure VMs
+ VM scale sets
+ App services
+ fuctions
+
+### Containers
+ Azure Container Instances
+ Azure kuberenets service
+ 
+### Networking
+ virtual Networks
+ Load Balancers
+ VPN Gateway
+ Azure App Gateway
+ Content Delivery Networks
+
+### Azure Storage Services
+structured Data
+semi structured data
+unstructured data
+
+### Azure Database Services
+Azure cosmos DB
+Azure SQLDB
+Azure DB Migration
+### Azure Market Placs
+### IOT
+ Azure IOT Central
+ Azure IOT Hub
+
+### Big data and analytics
+ Azure SQL Data ware house
+ Azure HDInsigh
+ Azure Data Lake Analytics
+
+### Artifical Inteligence
+ Azure Machine Learning Service
+ Azure Machine Learning Studio
+
+### Serverless conputing
+  Azure functions
+  Azure Logic Apps
+  Azure Event Grid
+
+### Devops
+ Azure Devops services
+ Azure DevTest Labs
+
+### Azure Management tools
+ Azure portal
+ Azure Powershell
+ Azure Cli 
+ Azure cloud shell
+
+### Azure Advisor
