@@ -38,3 +38,10 @@ https://www.tutorialstonight.com/sample-html-code-for-homepage
 install -> donnet , Azure cli ,Git ,VS code
 
 git -> only 9th 11th step choose windows
+
+A customer has developed website using java/python/donet and want to host it on MS azure
+
+1) Any infra which is created on Azure torun my website , i want 0 invneloment of amy azure admin tem
+Azure infra which run my code must able intetegrate with external code repo like githun(CI)
+it should support Dev,UAT and Prod Deployment.
+UAT enviornment must ask username and password from add
