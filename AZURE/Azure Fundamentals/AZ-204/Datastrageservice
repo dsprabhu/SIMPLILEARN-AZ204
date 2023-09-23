@@ -1,0 +1,23 @@
+Data starge service
+
+blob storage -unstructed data
+relational data - structred data
+OLTP
+nonrelatioanl data - cosmodb,mangodb
+
+message -> stream
+message -> batch -> windows
+prabhulrs76_1695480110241
+prabhugrs76_1695480289487
+
+prabhulrs76_1695480110241 ->settings->endpoind->blogservice -> https://prabhulrs76.blob.core.windows.net/
+
+prabhugrs76_1695480289487 ->primary ->https://prabhugrs76.blob.core.windows.net/
+secornd->https://prabhugrs76-secondary.blob.core.windows.net/
+datamagement -> redeundacy -> east us , west us
+preparefor faiover ->yes
+primary means -> you can write the data
+secondary mean- > you can read only
+prabhulrs76->datastorage->containers->new ->new
+
+customerdelight@simplilearn.com
