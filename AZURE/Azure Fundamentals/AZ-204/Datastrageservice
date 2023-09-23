@@ -21,3 +21,8 @@ secondary mean- > you can read only
 prabhulrs76->datastorage->containers->new ->new
 
 customerdelight@simplilearn.com
+setx AZURE_STORAGE_CONNECTION_STRING
+dotnet new console -n VlobQuickstartV12
+https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-java?tabs=powershell%2Cmanaged-identity%2Croles-azure-portal%2Csign-in-azure-cli
+https://github.com/microsoft/AzureStorageExplorer/releases
+https://azure.microsoft.com/en-us/products/storage/storage-explorer/
