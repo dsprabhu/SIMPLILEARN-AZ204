@@ -1,0 +1,77 @@
+
+### create a storage account
+1) subscription: Slimplilearn HOL 100546 
+2) Resource group: ODL-az-1123952
+3) storage account name: prabhustorageds
+4) region: (US) East US
+5) Performance: standard
+6) Redundancy: Locally-redunant storage(LRS)
+7) Review and create
+
+### create 2 containers
+1) go to prabhustorageds storage account
+2)  on lift side under "Data storage" you can see "containers"
+3) + create "data" and "backup" container.
+4) No advance setting, by default anonymous acces level is private by default.
+
+### create function app 
+#### Basic tab
+1) subscription: Slimplilearn HOL 100548
+2) Resource group: ODL-az-1123852
+3) instance details -> function app name: prabhufunctionds
+4) Do you want to deploy code or container image? : code
+5) Runtime stack: .NET
+6) Version: 6(LTS)    ## latest one but dont select isolated
+7) Region: East US
+8) Operating system: Windows
+9) Hosting -> Hosting optins and plans: Consumption (serverless)
+
+Next: storage
+
+10) storage -> storage account: prabhustorageds(v2)
+
+Next: review and create.
+( networking -> enable public access: on , monitoring -> enable application insights : yes, Deployment -> Github Actions details: disable, )
+
+Once created go to resource.
+
+### Create functions in Azure Portal (Azure Blob storage trigger)
+1) go to overiew of prabhufunctionds -> overiew
+2) function -> create in Azure Portal
+3) create function:   Select development environment
+4) select a template: Azure Blob Storage trigger
+5) Template details -> New function name: BlobTrigger1
+6) Path -> remove "sample-workitem/(name)" -> it should be "data/(name)"
+7) Storage account connection -> new : prabhustorageds -> it should be "prabhustorageds_STORAGE(new)"
+
+### BlobTrigger1- Azure blob storage tigger integration and code+test
+1) BlobTrigger1 -> developer -> integration
+you can see trigger (Azure Blob Storage(myBlob))+input=function(BlobTrigger1)=output options
+2) click input -> +add input -> you can see multiple option in create input (Binding Type,Storage account conneciton,Blob parameter name, path)
+3) click input -> create input -> Path : data/(name)
+4) click Output -> add output -> Path: backup/outputBlob_(name)    ###Blob parameter name is outputBlob and remove rand-guid , write "name".
+
+5) not go to code+test -> publicfuctionds\BlobTrigger1\run.csx
+public static void Run(Stream myBlob, string name, ILogger log)
+{
+    log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
+}
+
+6) 
+public static void Run(Stream myBlob, string name, ILogger log)
+{
+    log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
+}
+
+7) change it as below
+
+public static void Run(Stream myBlob, string name,Stream outputBlob, ILogger log)
+{
+    log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
+    outputBlob=myBlob;
+}
+
+8) Now to to "data" container and upload some file. 
+9) As soon as you can see the same files in "backup" container. 
+
+
