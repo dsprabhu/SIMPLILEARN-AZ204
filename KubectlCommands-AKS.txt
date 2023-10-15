@@ -1,0 +1,30 @@
+kubectl get nodes
+kubectl create deployment --image tutum/hello-world webserver
+kubectl get pods
+kubectl scale deployment --replicas 6 webserver
+kubectl get pods
+kubectl expose deployment webserver --name webserver-lb --type LoadBalancer --port 80 --target-port 80
+kubectl get service
+
+
+
+------------------------------------------
+kubectl get nodes
+odl_user [ ~ ]$ kubectl get nodes
+NAME                                STATUS   ROLES   AGE   VERSION
+aks-agentpool-32030432-vmss000000   Ready    agent   41m   v1.26.6
+
+
+odl_user [ ~ ]$ kubectl create deployment --image tutum/hello-world webserver
+deployment.apps/webserver created
+
+
+odl_user [ ~ ]$ kubectl get pods
+NAME                        READY   STATUS    RESTARTS   AGE
+webserver-c459fdcc4-5462p   1/1     Running   0          23s
+
+kubectl expose deployment webserver --name webserver-lb --type LoadBalancer --port 80 --target-port 80
+kubectl get service
+------------
+aks-agentpool-32030432-vmss
+Virtual machine scale set
